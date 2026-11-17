@@ -1,0 +1,13 @@
+metric                             draft_v1          draft_v2
+route_accuracy                        0.483                 1
+escalation_accuracy                   0.793                 1
+hard_case_4_1_pass                    False              True
+groundedness                            1.0               1.0
+faithfulness                            1.0               1.0
+context_relevance                     0.501             0.476
+hallucination_rate                        0                 0
+citation_recall                        0.38               1.0
+context_recall                          1.0               1.0
+verification_retry_rate               0.517                 0
+mean_llm_calls                       12.103             8.862
+cost_per_100_runs_usd               0.31982           0.19349

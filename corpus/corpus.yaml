@@ -1,0 +1,13 @@
+# Corpus manifest. Replace files/codes to index a real university's regulations (see README "Using a real corpus").
+scope:
+  program: BTECH
+  admission_batch: 2024
+documents:
+  - file: raw/academic_regulations_2024.pdf
+    code: REG
+    title: Academic Regulations 2024
+    version: "2024.1"
+  - file: raw/examination_bye_laws_2024.pdf
+    code: BYE
+    title: Examination Bye-Laws 2024
+    version: "2024.1"

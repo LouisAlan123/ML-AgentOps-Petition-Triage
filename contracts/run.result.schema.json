@@ -1,0 +1,213 @@
+{
+  "$defs": {
+    "Citation": {
+      "properties": {
+        "clause_id": {
+          "title": "Clause Id",
+          "type": "string"
+        },
+        "doc_title": {
+          "title": "Doc Title",
+          "type": "string"
+        },
+        "chapter": {
+          "title": "Chapter",
+          "type": "integer"
+        },
+        "chapter_title": {
+          "title": "Chapter Title",
+          "type": "string"
+        },
+        "heading": {
+          "title": "Heading",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "role": {
+          "default": "supporting",
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "clause_id",
+        "doc_title",
+        "chapter",
+        "chapter_title",
+        "heading",
+        "quote"
+      ],
+      "title": "Citation",
+      "type": "object"
+    },
+    "Escalation": {
+      "properties": {
+        "required": {
+          "title": "Required",
+          "type": "boolean"
+        },
+        "reason_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason Code"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "path": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Path",
+          "type": "array"
+        }
+      },
+      "required": [
+        "required"
+      ],
+      "title": "Escalation",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "route": {
+      "enum": [
+        "grant-under-provision",
+        "refer-to-committee",
+        "reject-with-cited-clause",
+        "escalate-to-human"
+      ],
+      "title": "Route",
+      "type": "string"
+    },
+    "eligibility_position": {
+      "enum": [
+        "eligible",
+        "not_eligible",
+        "conditionally_eligible_pending_committee",
+        "undetermined"
+      ],
+      "title": "Eligibility Position",
+      "type": "string"
+    },
+    "petition_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Petition Type"
+    },
+    "basis": {
+      "title": "Basis",
+      "type": "string"
+    },
+    "rationale": {
+      "title": "Rationale",
+      "type": "string"
+    },
+    "citations": {
+      "items": {
+        "$ref": "#/$defs/Citation"
+      },
+      "title": "Citations",
+      "type": "array"
+    },
+    "escalation": {
+      "$ref": "#/$defs/Escalation"
+    },
+    "verification": {
+      "additionalProperties": true,
+      "title": "Verification",
+      "type": "object"
+    },
+    "degraded": {
+      "default": false,
+      "title": "Degraded",
+      "type": "boolean"
+    },
+    "decision_authority": {
+      "const": "examination_officer",
+      "default": "examination_officer",
+      "title": "Decision Authority",
+      "type": "string"
+    },
+    "disclaimer": {
+      "default": "Recommendation only. The examination officer decides this petition.",
+      "title": "Disclaimer",
+      "type": "string"
+    },
+    "prompt_versions": {
+      "additionalProperties": true,
+      "default": {},
+      "title": "Prompt Versions",
+      "type": "object"
+    },
+    "corpus_version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Corpus Version"
+    },
+    "guardrail_flags": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Guardrail Flags",
+      "type": "array"
+    },
+    "cost": {
+      "additionalProperties": true,
+      "default": {},
+      "title": "Cost",
+      "type": "object"
+    }
+  },
+  "required": [
+    "run_id",
+    "route",
+    "eligibility_position",
+    "petition_type",
+    "basis",
+    "rationale",
+    "citations",
+    "escalation",
+    "verification"
+  ],
+  "title": "RunResult",
+  "type": "object"
+}

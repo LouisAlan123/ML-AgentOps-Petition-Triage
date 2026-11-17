@@ -1,0 +1,276 @@
+{
+  "$defs": {
+    "Grounds": {
+      "enum": [
+        "medical",
+        "sports_duty",
+        "personal",
+        "academic",
+        "none"
+      ],
+      "title": "Grounds",
+      "type": "string"
+    },
+    "PetitionType": {
+      "enum": [
+        "attendance",
+        "re_evaluation",
+        "re_registration",
+        "medical_leave",
+        "grade_grievance"
+      ],
+      "title": "PetitionType",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "A synthetic student petition. Real student records must never be submitted (student_ref must be SYN-######).",
+  "properties": {
+    "client_petition_ref": {
+      "anyOf": [
+        {
+          "pattern": "^[A-Za-z0-9_\\-]{1,64}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Idempotency key chosen by the caller",
+      "title": "Client Petition Ref"
+    },
+    "student_ref": {
+      "description": "Synthetic student id only",
+      "pattern": "^SYN-\\d{6}$",
+      "title": "Student Ref",
+      "type": "string"
+    },
+    "program": {
+      "enum": [
+        "BTECH",
+        "MTECH",
+        "MBA"
+      ],
+      "title": "Program",
+      "type": "string"
+    },
+    "admission_batch": {
+      "maximum": 2030,
+      "minimum": 2015,
+      "title": "Admission Batch",
+      "type": "integer"
+    },
+    "semester": {
+      "maximum": 8,
+      "minimum": 1,
+      "title": "Semester",
+      "type": "integer"
+    },
+    "course_code": {
+      "pattern": "^[A-Z]{2,4}\\d{3}$",
+      "title": "Course Code",
+      "type": "string"
+    },
+    "course_type": {
+      "default": "theory",
+      "enum": [
+        "theory",
+        "lab",
+        "project"
+      ],
+      "title": "Course Type",
+      "type": "string"
+    },
+    "declared_type": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/PetitionType"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "grounds": {
+      "$ref": "#/$defs/Grounds",
+      "default": "none"
+    },
+    "description": {
+      "maxLength": 1500,
+      "minLength": 10,
+      "title": "Description",
+      "type": "string"
+    },
+    "submitted_on": {
+      "format": "date",
+      "title": "Submitted On",
+      "type": "string"
+    },
+    "classes_held": {
+      "anyOf": [
+        {
+          "maximum": 300,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Classes Held"
+    },
+    "classes_attended": {
+      "anyOf": [
+        {
+          "maximum": 300,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Classes Attended"
+    },
+    "attendance_percent": {
+      "anyOf": [
+        {
+          "maximum": 100,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Attendance Percent"
+    },
+    "duty_classes": {
+      "anyOf": [
+        {
+          "maximum": 300,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Duty Classes"
+    },
+    "prior_condonations": {
+      "default": 0,
+      "maximum": 10,
+      "minimum": 0,
+      "title": "Prior Condonations",
+      "type": "integer"
+    },
+    "medical_certificate_attached": {
+      "default": false,
+      "title": "Medical Certificate Attached",
+      "type": "boolean"
+    },
+    "days_since_resumption": {
+      "anyOf": [
+        {
+          "maximum": 365,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Days Since Resumption"
+    },
+    "days_since_result": {
+      "anyOf": [
+        {
+          "maximum": 365,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Days Since Result"
+    },
+    "prior_reevaluations": {
+      "default": 0,
+      "maximum": 5,
+      "minimum": 0,
+      "title": "Prior Reevaluations",
+      "type": "integer"
+    },
+    "grade_obtained": {
+      "anyOf": [
+        {
+          "enum": [
+            "S",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "DT"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Grade Obtained"
+    },
+    "attempts_used": {
+      "anyOf": [
+        {
+          "maximum": 10,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Attempts Used"
+    },
+    "leave_days": {
+      "anyOf": [
+        {
+          "maximum": 730,
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Leave Days"
+    }
+  },
+  "required": [
+    "student_ref",
+    "program",
+    "admission_batch",
+    "semester",
+    "course_code",
+    "description",
+    "submitted_on"
+  ],
+  "title": "PetitionIn",
+  "type": "object"
+}

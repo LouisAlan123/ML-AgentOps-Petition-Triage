@@ -1,0 +1,60 @@
+# Synthetic University of Technology | Academic Regulations 2024 (B.Tech, 2024 admission batch) | REG
+CHAPTER 1: PRELIMINARY
+1.1 Short Title and Applicability. These Regulations apply to students of the B.Tech programme admitted in the 2024 academic year and shall be known as the Academic Regulations 2024.
+1.2 Definitions. In these Regulations, ESE means the End Semester Examination, CoE means the Controller of Examinations, Dean (Academics) means the Dean of Academic Affairs of the University, and Examination Officer means an officer of the Examination Section authorised by the CoE to process student petitions.
+1.3 Interpretation. Any question on the interpretation of these Regulations shall be referred to the Academic Council, whose decision shall be final.
+CHAPTER 2: REGISTRATION AND PROGRAMME STRUCTURE
+2.1 Course Registration. A student shall register for the courses of a semester at the beginning of that semester, and a student who has not registered for a course shall not be eligible to attend classes or to appear for the ESE in that course.
+2.2 Credit Requirement. A student shall complete 160 credits, distributed across eight semesters, to be eligible for the award of the B.Tech degree.
+2.3 Late Registration. Late registration may be permitted by the Dean (Academics) on payment of a late fee of Rs 1000.
+CHAPTER 3: ATTENDANCE
+3.1 Minimum Attendance. A student shall be eligible to appear for the ESE in a course only if the student has attended not less than 75% of the classes held in that course during the semester.
+3.2 Computation of Attendance. Attendance in a course is computed as the number of classes attended divided by the number of classes held, expressed as a percentage to one decimal place and without rounding up.
+3.3 Attendance Records. The course instructor shall maintain attendance records and shall publish the attendance position to students once every fortnight.
+3.4 Consequence of Shortfall. A student who does not satisfy Clause 3.1 in a course shall not be permitted to appear for the ESE in that course, shall be awarded the grade DT (Detained) in that course, and shall re-register for the course as provided in Clause 5.3.
+3.5 Institutional Duty. Classes missed by a student while representing the University in a sports or cultural event with the prior written approval of the Dean (Student Affairs) shall be counted as classes attended, subject to a maximum of 10% of the classes held in the course.
+CHAPTER 4: CONTINUOUS INTERNAL EVALUATION
+4.1 Weightage. Continuous Internal Evaluation carries 50% of the total marks in a course and the ESE carries the remaining 50%.
+4.2 Minimum Marks. A student shall secure not less than 40% of the maximum marks in the ESE and not less than 40% in the aggregate to pass a course.
+4.3 Make-up Tests. A make-up test for a missed Continuous Internal Evaluation component may be allowed by the course instructor in case of documented illness.
+CHAPTER 5: EXAMINATIONS AND RE-REGISTRATION
+5.1 Conduct of ESE. The ESE shall be conducted by the CoE at the end of each semester in accordance with the Examination Bye-Laws.
+5.2 Grade F. A student who secures less than the pass marks in a course shall be awarded the grade F in that course.
+5.3 Re-registration. A student who has been awarded the grade F or DT in a course shall re-register for the course when it is next offered, and may re-register for a course for a maximum of 3 attempts in total.
+5.4 Exhaustion of Attempts. A student who has exhausted the 3 attempts permitted under Clause 5.3 shall not be permitted to re-register for the course, and the continuation of that student in the programme shall be referred to the Academic Council.
+5.5 Re-registration Fee. A student re-registering for a course shall pay a fee of Rs 2000 per course.
+5.6 No Grade Improvement. A student who has passed a course shall not re-register for that course for the purpose of improving the grade.
+CHAPTER 6: LEAVE OF ABSENCE
+6.1 Leave Application. A student who is unable to attend classes shall apply for leave in writing to the Head of Department.
+6.2 Medical Leave up to 30 Days. The Head of Department may grant medical leave for a period of up to 30 consecutive days on the basis of a certificate issued by a registered medical practitioner.
+6.3 Medical Leave Beyond 30 Days. Medical leave exceeding 30 days and up to 180 days shall be considered by the Medical Leave Committee on the recommendation of the Head of Department.
+6.4 Limit on Medical Leave. Medical leave exceeding 180 days in a semester shall not be granted.
+6.5 Resumption. A student resuming classes after medical leave shall submit a fitness certificate to the Head of Department.
+CHAPTER 7: SPECIAL PROVISIONS
+7.1 Relaxation by Academic Council. Where these Regulations cause exceptional hardship, the Academic Council may relax a provision of these Regulations in a particular case, and no other authority shall have such power except as expressly provided in these Regulations.
+7.2 Withdrawal from Semester. A student may withdraw from a semester on grounds of prolonged illness with the approval of the Academic Council.
+7.3 Fee Concessions. Fee concessions shall be considered by the Finance Committee on the recommendation of the Dean (Student Affairs).
+7.4 Condonation of Shortfall in Attendance. Notwithstanding Clause 3.1, a shortfall in attendance in a course may be condoned where the attendance is not less than 65% but less than 75%, and the shortfall is due to illness or hospitalisation certified by a registered medical practitioner. The certificate shall be submitted within 7 days of the student resuming classes. Each application shall be decided by the Condonation Committee, and no other authority may condone a shortfall.
+7.5 Shortfall Below 65%. A shortfall in attendance where the attendance is less than 65% shall not be condoned under Clause 7.4 or by any other authority.
+7.6 Limits on Condonation. Condonation under Clause 7.4 shall be granted not more than twice during the programme, on payment of a fee of Rs 500 per course.
+7.7 Condonation Committee. The Condonation Committee shall consist of the Dean (Academics) as Chairperson, two Heads of Department and a nominee of the CoE.
+CHAPTER 8: GRADING
+8.1 Grade Scale. Grades shall be awarded on a ten point scale with the letter grades S, A, B, C, D, E and F.
+8.2 Cumulative Grade Point Average. The cumulative grade point average shall be computed as the credit-weighted average of the grade points of all courses completed.
+8.3 Grade Cards. Grade cards shall be issued by the CoE within 30 days of the declaration of results of the semester.
+CHAPTER 9: RE-EVALUATION
+9.1 Eligibility for Re-evaluation. A student may apply for re-evaluation of the answer script of the ESE in a theory course.
+9.2 Time Limit for Re-evaluation. An application for re-evaluation shall be made within 5 days of the declaration of results, on payment of a fee of Rs 1000 per course.
+9.3 Courses Not Eligible. Laboratory, project and seminar courses are not eligible for re-evaluation.
+9.4 Outcome of Re-evaluation. The higher of the marks obtained in the original evaluation and in the re-evaluation shall be awarded to the student.
+9.5 Limit on Re-evaluation. A student may apply for re-evaluation of a course only once.
+CHAPTER 10: GRADE GRIEVANCES
+10.1 Submission of Grievance. A student aggrieved by the grade awarded in a course may submit a grade grievance to the Grade Grievance Committee within 10 days of the declaration of results.
+10.2 Decision on Grievance. The Grade Grievance Committee shall examine each grievance and its decision shall be final, and no grade shall be altered except on the recommendation of that Committee.
+10.3 Delayed Grievance. A grievance received after the period in Clause 10.1 shall not be entertained, except where the Academic Council directs otherwise.
+CHAPTER 11: DISCIPLINE
+11.1 Unfair Means. A student found using unfair means in an examination shall be dealt with by the Malpractice Committee in accordance with the Examination Bye-Laws.
+11.2 Code of Conduct. Every student shall abide by the Code of Conduct of the University.
+CHAPTER 12: MISCELLANEOUS
+12.1 Amendment. These Regulations may be amended by the Academic Council.
+12.2 Residuary Matters. Any matter not provided for in these Regulations shall be referred to the Academic Council.

@@ -1,0 +1,5 @@
+.data
+.env
+**/__pycache__
+loadtest/out
+.pytest_cache

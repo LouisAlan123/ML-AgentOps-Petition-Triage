@@ -1,0 +1,13 @@
+metric                          single_pass           agentic
+route_accuracy                        0.586                 1
+escalation_accuracy                   0.862                 1
+hard_case_4_1_pass                    False              True
+groundedness                            1.0               1.0
+faithfulness                            1.0               1.0
+context_relevance                      0.67             0.476
+hallucination_rate                        0                 0
+citation_recall                         0.5               1.0
+context_recall                         0.68               1.0
+verification_retry_rate               0.034                 0
+mean_llm_calls                        1.862             8.862
+cost_per_100_runs_usd               0.02389           0.19349

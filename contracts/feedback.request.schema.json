@@ -1,0 +1,27 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "run_id": {
+      "pattern": "^run_[a-f0-9]{16}$",
+      "title": "Run Id",
+      "type": "string"
+    },
+    "satisfactory": {
+      "title": "Satisfactory",
+      "type": "boolean"
+    },
+    "reason": {
+      "maxLength": 500,
+      "minLength": 3,
+      "title": "Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "run_id",
+    "satisfactory",
+    "reason"
+  ],
+  "title": "Feedback",
+  "type": "object"
+}
